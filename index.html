@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html style="background: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);">
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Form Page</title>
+</head>
+<body>
+  <div class="back">
+    <div class="top">
+      <center>
+      <h1 style="font-weight: bold;">LOG-IN PAGE</h1>
+      <form>
+        <br />
+        <div class="group">
+          <label for="user" class="label">Username :</label>
+          <input id="user" type="text" class="input" placeholder="USERNAME..." required>
+        </div>
+        <br />
+        <div class="group">
+          <label for="pass" class="label">Password :</label>
+          <input id="pass" type="password" class="input" placeholder="PASSWORD..." maxlength="8" pattern="(?=.*[A-Z])(?=.*\d).{8,}"
+          title="Password must contain at least one uppercase letter, one number, and be at least 8 characters long"
+          required>
+        </div>
+        <br />
+        <a class="link" href="./forgotten.html" >Forgotten password? </a>
+        <br />
+        <div class="group">
+          <input id="check" type="checkbox" class="check">
+          <label for="check" class="icon"> Keep me signed in</label>
+        </div>
+        <br />
+        <div class="group">
+          <input type="submit" class="button" value="Log In">
+        </div>
+        <br />
+        <a class="link" href="./Signup.html">Sign up? </a>
+        <br />
+      </center>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

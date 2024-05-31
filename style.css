@@ -1,0 +1,55 @@
+.back {
+  border-radius: 50%;
+  width: 150%;
+  margin: auto;
+  max-width: 525px;
+  min-height: 670px;
+  position: relative;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdiRewv9YB12eq9Jh4KFRUHTV4D1vHnFaUV4QTG2w7I1vF-y7vvZwuekNPzX8h5V6Ly8&usqp=CAU);
+}
+.top{
+  border-radius: 30PX;
+  width: 80%;
+  height: 70%;
+  font-size: large;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 10px solid gray;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDVxr5-0aZ8Jtj36uYriBCv0UVxZiOc1gdA&s) 
+}
+.link{
+  color: red;
+}
+@media only screen and (max-width:455px) { 
+
+.back {
+  color: white;
+  border-radius: 50%;
+  width: 90%;
+  height: 10%;
+  margin:auto;
+  max-width: 525px;
+  min-height: 670px;
+  position: relative;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4q4t9BPXdJ7dUCKlrF6eDjJxDoBXl0ZCHvw&s);
+}
+.top{
+  border-radius: 30PX;
+  width: 80%;
+  height: 65%;
+  font-size: large;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 10px solid black;
+  background: url(https://wallpapers.com/images/featured/grey-5xvepms9fbbi0bmh.jpg) 
+}
+.link{
+  color: red;
+}
+}
